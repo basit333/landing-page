@@ -1,0 +1,91 @@
+/* // Small devices (landscape phones, 480px and up) */
+
+@media screen and (max-width: 480px) {
+    .container {
+      width: 414px;
+    }
+
+    .container-fluid {
+      width: 414px;
+    }
+
+    .left img {
+      width: 250px;
+    }
+
+    .right img {
+      width: 250px;
+    }
+
+    .middle {
+      width: 384px;
+      margin: 30px 0 0 40px;
+    }
+
+    .circle-1 {
+      left: 40%;
+    }
+
+    .circle-2 {
+      left: 40%;
+    }
+
+    /* Media conrainer-sm */
+
+  /* // Small devices (landscape phones, 480px and up) */
+
+    .container-sm {width: 440px;}
+
+    /* Media conrainer-md */
+
+  /* // Small devices (landscape phones, 480px and up) */
+
+    .container-md {
+      width: 327px;
+      margin: auto;
+    }
+
+    .container-md .smarter {
+      width: 327px;
+      font-size: 35px;
+    }
+
+    .container-md .send {
+      width: 327px;
+    }
+
+    /* Media conrainer-lg */
+
+  /* // Small devices (landscape phones, 480px and up) */
+
+    .container-lg {
+      width: 440px;
+      flex-wrap: wrap;
+    }
+
+    .container-lg .img-1 {
+      margin-bottom: 20px;
+    }
+
+    .container-lg .img-2 {
+      margin-bottom: 20px;
+    }
+
+  /* Media conrainer-xl */
+
+  /* // Small devices (landscape phones, 480px and up) */
+
+   .container-xl {
+     width: 100%;
+    }
+
+    .container-xl .exp {
+      width: 327px;
+      font-size: 35px;
+    }
+
+    .container-xl .stay {
+      width: 327px;
+    }
+
+}

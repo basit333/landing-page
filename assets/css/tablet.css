@@ -1,0 +1,132 @@
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+
+    .container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 50px auto;
+    }
+
+
+    .container-fluid {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left {
+      order: 1;
+      margin: 0;
+      width: 50%;
+      margin-left: -22px;
+    }
+
+    .right {
+      order: 1;
+      margin: 0;
+      width: 50%;
+      margin-right: -27px;
+    }
+
+    .middle {
+      order: 3;
+      width: 100%;
+      margin: 30px auto;
+    }
+
+    .left img {
+      width: 400px;
+    }
+
+    .right img {
+      width: 400px;
+    }
+
+    .container-xl {
+      flex-direction: column;
+    }
+
+    .container-xl .exp {
+      width: 457px;
+      text-align: center;
+      font-size: 44px;
+      line-height: 44px;
+    }
+
+    .container-xl .stay {
+      width: 573px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .container-xl .footer-btn {
+      width: 193px;
+      text-align: center;
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+
+    .container-sm {
+      width: 720px;
+      display: flex;
+      align-items: center;
+      margin: 50px auto 80px auto;
+    }
+
+  /* // Medium devices (tablets, 768px and up) */
+
+    .container-md {
+      width: 1200px;
+      margin: 250px auto;
+    }
+
+    .container-md .smarter {
+      width: 445px;
+      margin: 10px auto;
+      padding: 0;
+    }
+
+    .container-md .send {
+      width: 573px;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+
+    .container-lg {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .container-lg .img-1 img {
+      width: 164px;
+    }
+
+    .container-lg .img-2 img {
+      width: 164px;
+    }
+
+    .container-lg .img-3 img {
+      width: 164px;
+    }
+
+    .container-lg .img-4 img {
+      width: 164px;
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+
+    .container-xl {
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+    }
+
+}

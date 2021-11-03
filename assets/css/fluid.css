@@ -1,0 +1,42 @@
+/* Container */
+
+.container {
+    max-width: 1140px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-fluid {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .container-sm {
+    max-width: 1320px;
+    margin: 50px auto 80px auto;
+  }
+
+  .container-md {
+    max-width: 540px;
+    margin: 250px auto;
+  }
+
+  .container-lg {
+    max-width: 1110px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .container-xl {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

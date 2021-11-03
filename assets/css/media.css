@@ -1,0 +1,85 @@
+/* Media Queries */
+ /* 1200 */
+/* Media container */
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media screen and (max-width: 1200px) {
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .container {width: 992px;}
+
+    .container-fluid {
+      width: 100%;
+    }
+
+    .left {
+      width: 394px;
+      margin-left: -30px;
+    }
+
+    .right {
+      width: 394px;
+      margin-right: -80px;
+    }
+
+    .left img {
+      width: 350px;
+    }
+
+    .right img {
+      width: 350px;
+    }
+
+    .container-fluid .middle {
+      width: 540px;
+    }
+
+    .middle .main-heading {
+        font-size: 64px;
+        font-weight: 900;
+        text-align: center;
+        padding: 0 40px;
+    }
+
+    .middle .main-para {
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      padding: 0 51px;
+    }
+
+     .btn {
+      display: inline-flex;
+      padding: 15px 30px;
+      border-radius: 40px;
+      text-align: center;
+      border: none;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 26px;
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+      margin-top: 20px;
+     }
+
+  /* // X-Large devices (large desktops, 1200px and up) */
+
+  .container-sm {width: 1200px;}
+
+  /* // X-Large devices (large desktops, 1200px and up) */
+
+  .container-md {width: 1140px;}
+
+  /* // X-Large devices (large desktops, 1200px and up) */
+
+  .container-lg {width: 1140px;}
+
+  /* // X-Large devices (large desktops, 1200px and up) */
+
+  .container-xl {width: 1050px;}
+}
